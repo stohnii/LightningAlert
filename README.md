@@ -3,7 +3,7 @@ Your task is to write a program that reads lightning data as a stream from stand
 
 An example 'strike' coming off of the exchange looks like this:
 
-{
+   {
     "flashType": 1,
     "strikeTime": 1386285909025,
     "latitude": 33.5524951,
@@ -14,7 +14,7 @@ An example 'strike' coming off of the exchange looks like this:
     "receivedTime": 1386285919187,
     "numberOfSensors": 17,
     "multiplicity": 1
-}
+   }
 Where:
 flashType=(0='cloud to ground', 1='cloud to cloud', 9='heartbeat')
 strikeTime=the number of milliseconds since January 1, 1970, 00:00:00 GMT
