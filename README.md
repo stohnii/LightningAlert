@@ -29,7 +29,7 @@ An example of an 'asset' is as follows:
   }
 You might notice that the lightning strikes are in lat/long format, whereas the assets are listed in quadkey format.
 
-There is a simple conversion process, outlined here that you can take advantage of. Feel free to use an open source library as well.
+There is a simple conversion process, outlined here (http://msdn.microsoft.com/en-us/library/bb259689.aspx) that you can take advantage of. Feel free to use an open source library as well.
 
 For this purpose, you can assume that all asset locations are at a zoom level of '12'.
 
